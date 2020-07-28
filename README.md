@@ -10,7 +10,7 @@
 * The first step was downloading the multi-machine-start-code zip file and unzipping it
 * Next I researched how to enable my Vagrantfile capable of running two files at once
 * I did this by defining the config.vm line as 'db' and making sure the following lines of code were consistent with the db. prefix
-* I also amended the IP address in this step my simply changing the last three numbers of the IP address string
+* I also amended the IP address in this step by simply changing the last three numbers of the IP address string
 * I ran the ```vagrant up``` command and saw two VMs were created which meant that my exercise was working as exected
 ---
 ### Provisioning the db machine with a mongoDB database
